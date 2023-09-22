@@ -28,7 +28,7 @@ High context-switching overhead for small time quanta.
 
 | Scheduling Algorithm                 | Optimize Average Completion Time | Optimize Average Waiting Time | Prevent Starvation | Prevent Convoy Effect | Psychic Skills NOT Needed |
 | ----------------------------------- | --------------------------------- | ----------------------------- | ------------------ | --------------------- | --------------------------- |
-| Round Robin (RR)                    | Moderate                          | Moderate                      | No                 | No                    | Yes                       |
-| Shortest Job First (SJF)            | Low                               | Low                           | Yes                | No                    | No                        |
-| Shortest Time-to-Completion First (STCF) | Low                          | Low                           | Yes                | No                    | No                        |
-| First-Come, First-Served (FCFS)     | High                              | High                          | Yes                | Yes                   | Yes                       |
+| Round Robin (RR)                    | NO                          | YES                      | YES                 | YES                    | YES                       |
+| Shortest Job First (SJF)            | YES                               | NO                           | NO                | NO                    | NO                        |
+| Shortest Time-to-Completion First (STCF) | YES                          | NO                           | NO                | YES                    | NO                        |
+| First-Come, First-Served (FCFS)     | NO                              | NO                          | YES                | NO                   | YES                       |
