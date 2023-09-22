@@ -1,3 +1,6 @@
+- Any scheduling policy that always favours a fixed property for scheduling leads starvation.
+- Any non-preemptible scheduling policy suffers from convoy effect.
+
 ### First-Come, First-Served (FCFS):
 - aka FIFO (First-In-First-Out).
 - Processes are executed in the order they arrive in the ready queue.
@@ -22,7 +25,11 @@
 - Selects the process with the shortest remaining time to completion.
 - Preemptive and dynamically adjusts execution based on remaining time.
 - Minimizes waiting time and average completion time.
-- May lead to starvation for longer processes.
+- May lead to starvation for longer processes.(Any scheduling policy that always favours a fixed
+property for scheduling leads starvation)
+- A running task can be de-scheduled before completion.
+- Schedule the task with the least amount of time left
+- STCF is a preemptible policy - No convoy effect.
 
 ### Round Robin (RR):
 - Psychic Skills NOT Needed: Yes (No need to predict process behavior)
