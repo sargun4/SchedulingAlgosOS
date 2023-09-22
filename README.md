@@ -29,8 +29,7 @@
 property for scheduling leads starvation)
 - A running task can be de-scheduled before completion.
 - Schedule the task with the least amount of time left
-- STCF is a preemptible policy - No convoy effect.
-
+- STCF is a preemptible policy - No convoy effect
 ### Round Robin (RR):
 - Psychic Skills NOT Needed: Yes (No need to predict process behavior)
 - Each process is assigned a fixed time quantum (time slice).
